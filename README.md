@@ -5,6 +5,7 @@ The Modeling eNvironment for Isoforms
 
 To install and use MoNvIso you will need:
 
+- A computer running Linux as OS
 - Python 3 or beyond
 - MODELLER (https://salilab.org/modeller/download_installation.html)
 
