@@ -69,14 +69,17 @@ done
 
 create_parameters(){
 
+cobalt=$(ls | grep *cobalt*)
+
 touch parameters.dat
 
 if [ -f "uniprot_sprot.fasta" ]; then
+
 echo "DB_LOCATION=$1/Monviso/
 
-COBALT_HOME=$1/Monviso/executables/ncbi-cobalt-2.1.0/bin/
+COBALT_HOME=$1/Monviso/$cobalt/bin/
 
-HMMER_HOME=$1/Monviso/bin/
+HMMER_HOME=$1/Monviso/hmmer/bin/
   
 RESOLUTION=4.50
 
@@ -95,9 +98,9 @@ NUM_OF_MOD_MUT=1" > parameters.dat
 else
 echo "DB_LOCATION=/path/to/db/
 
-COBALT_HOME=$1/Monviso/bin/
+COBALT_HOME=$1/Monviso/$cobalt/bin/
 
-HMMER_HOME=$1/Monviso/bin/
+HMMER_HOME=$1/Monviso/hmmer/bin/
   
 RESOLUTION=4.50
 
