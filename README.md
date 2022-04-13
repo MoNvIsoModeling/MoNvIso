@@ -1,5 +1,5 @@
 # MoNvIso
-The Modeling eNvironment for Isoforms
+The Modelling eNvironment for Isoforms
 
 # How to use MoNvIso
 
