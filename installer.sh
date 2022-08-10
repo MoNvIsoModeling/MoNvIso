@@ -93,7 +93,11 @@ PDB_TO_USE=10
 
 NUM_OF_MOD_WT=1
 
-NUM_OF_MOD_MUT=1" > parameters.dat
+NUM_OF_MOD_MUT=1
+
+W_STRUCT=10
+
+W_MUT=10" > parameters.dat
 
 else
 echo "DB_LOCATION=/path/to/db/
